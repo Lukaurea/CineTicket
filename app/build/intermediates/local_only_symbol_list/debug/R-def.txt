@@ -9,6 +9,17 @@ color teal_700
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id btn_google
+id btn_instagram
+id btn_login
+id btn_ou
+id btn_visitante
+id et_email
+id et_password
+id ll_buttons
+id ll_inputs
+id tv_logo
+layout activity_main
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
