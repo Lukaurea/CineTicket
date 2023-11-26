@@ -65,9 +65,8 @@ dependencies {
     implementation("androidx.navigation:navigation-fragment-ktx:2.7.5")
     implementation("androidx.navigation:navigation-ui-ktx:2.7.5")
     implementation("androidx.fragment:fragment-ktx:1.6.2")
-
-
-
+    implementation("androidx.coordinatorlayout:coordinatorlayout:1.2.0")
+    implementation("com.squareup.picasso:picasso:2.71828")
 
 
     testImplementation("junit:junit:4.13.2")
