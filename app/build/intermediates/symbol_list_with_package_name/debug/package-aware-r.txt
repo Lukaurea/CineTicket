@@ -3622,6 +3622,7 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id synopsis
 id synopsis_text_view
 id tabMode
 id tag_accessibility_actions

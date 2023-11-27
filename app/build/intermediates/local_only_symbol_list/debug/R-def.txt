@@ -87,6 +87,7 @@ id password
 id rating_text_view
 id scrollView2
 id search
+id synopsis
 id synopsis_text_view
 id textViewLogin
 id ticket

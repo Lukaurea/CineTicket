@@ -3,12 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginTop="17dp">
 
         <ImageView
             android:id="@+id/image_view"
@@ -23,6 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/image_view"
+            android:textColor="@color/white"
             android:layout_marginLeft="16dp"
             android:layout_alignTop="@id/image_view"
             android:textAppearance="@style/TextAppearance.AppCompat.Title"
@@ -32,6 +35,7 @@
             android:id="@+id/genre_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/white"
             android:layout_below="@id/title_text_view"
             android:layout_toRightOf="@id/image_view"
             android:layout_marginLeft="16dp"
@@ -42,6 +46,7 @@
             android:id="@+id/rating_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/white"
             android:layout_below="@id/genre_text_view"
             android:layout_toRightOf="@id/image_view"
             android:layout_marginLeft="16dp"
@@ -52,19 +57,91 @@
             android:id="@+id/cast_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/white"
             android:layout_below="@id/rating_text_view"
             android:layout_toRightOf="@id/image_view"
             android:layout_marginLeft="16dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:text="Brie Larson, Iman Vellani, Teyonah Parris, Samuel L. Jackson" />
 
+        <TextView
+            android:id="@+id/synopsis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/image_view"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="-38dp"
+            android:text="Sinopse"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/synopsis_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/image_view"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="-207dp"
+            android:text="As Marvels é um filme sequência de Capitã Marvel, estrelado por Brie Larson. A trama segue Carol Danvers em uma nova missão após inadvertidamente causar distúrbios no universo. Ao tentar resolver o problema, ela acidentalmente se envolve em um buraco de minhoca, conectando seus poderes aos de Kamala Khan (Ms. Marvel) e Monica Rambeau. Juntas, as três heroínas enfrentam um fenômeno misterioso que as faz trocar de lugar sem compreender a causa."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="480dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="5dp"
+            android:gravity="center">
+
+            <!-- Botão 1 -->
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:text="29/11"
+                android:layout_margin="5dp"
+                android:background="@color/gradient_3"/>
+
+            <!-- Botão 2 -->
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:text="30/11"
+                android:layout_margin="5dp"
+                android:background="@color/gradient_3"/>
+
+            <!-- Botão 3 -->
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:text="01/12"
+                android:layout_margin="5dp"
+                android:background="@color/gradient_3"/>
+
+            <!-- Botão 4 -->
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:text="02/12"
+                android:layout_margin="5dp"
+                android:background="@color/gradient_3"/>
+
+            <!-- Botão 5 -->
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:text="03/12"
+                android:layout_margin="5dp"
+                android:background="@color/gradient_3"/>
+
+        </LinearLayout>
     </RelativeLayout>
 
-    <TextView
-        android:id="@+id/synopsis_text_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:text="As Marvels é um filme sequência de Capitã Marvel, estrelado por Brie Larson. A trama segue Carol Danvers em uma nova missão após inadvertidamente causar distúrbios no universo. Ao tentar resolver o problema, ela acidentalmente se envolve em um buraco de minhoca, conectando seus poderes aos de Kamala Khan (Ms. Marvel) e Monica Rambeau. Juntas, as três heroínas enfrentam um fenômeno misterioso que as faz trocar de lugar sem compreender a causa." />
 
 </LinearLayout>
