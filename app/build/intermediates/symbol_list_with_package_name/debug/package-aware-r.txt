@@ -1413,6 +1413,8 @@ color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
+color colorPrimary
+color colorPrimaryDark
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -3001,6 +3003,7 @@ drawable assasinos_lua
 drawable avd_hide_password
 drawable avd_show_password
 drawable background
+drawable bala_sem_nome
 drawable baseline_email_24
 drawable baseline_lock_24
 drawable baseline_person_24
@@ -3024,8 +3027,10 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable digimon
 drawable five_nights
 drawable float_icon
+drawable folhas_outono
 drawable home
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
@@ -3067,6 +3072,7 @@ drawable m3_tabs_background
 drawable m3_tabs_line_indicator
 drawable m3_tabs_rounded_line_indicator
 drawable m3_tabs_transparent_background
+drawable maria
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -3078,6 +3084,7 @@ drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
 drawable microphone
+drawable monster
 drawable ms_marvels
 drawable mtrl_bottomsheet_drag_handle
 drawable mtrl_checkbox_button
@@ -3133,8 +3140,11 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable o_jogo
 drawable o_pai
+drawable os_segredos
 drawable pointer
+drawable poliana
 drawable search
 drawable taylor
 drawable test_level_drawable
@@ -3203,8 +3213,8 @@ id action_bar_title
 id action_container
 id action_context_bar
 id action_divider
+id action_homeFragment_to_movieDetailFragment
 id action_image
-id action_loginFragment_to_homeFragment
 id action_menu_divider
 id action_menu_presenter
 id action_mode_bar
@@ -3250,6 +3260,7 @@ id cache_measures
 id callMeasure
 id cancel_button
 id carryVelocity
+id cast_text_view
 id center
 id centerCrop
 id centerInside
@@ -3261,6 +3272,8 @@ id chains
 id checkbox
 id checked
 id chronometer
+id cinemas
+id cinemasFragment
 id circle_center
 id clear_text
 id clip_horizontal
@@ -3270,6 +3283,8 @@ id closest
 id collapseActionView
 id compose_view_saveable_id_tag
 id compress
+id config
+id configsFragment
 id confirm_button
 id constraint
 id consume_window_insets_tag
@@ -3338,6 +3353,7 @@ id fill_horizontal
 id fill_vertical
 id filled
 id filmes_em_alta
+id filmes_em_breve
 id filmes_em_cartaz
 id fitCenter
 id fitEnd
@@ -3348,9 +3364,11 @@ id fixed
 id flip
 id floating
 id forever
+id fragment_container
 id fragment_container_view_tag
 id frost
 id fullscreen_header
+id genre_text_view
 id ghost_view
 id ghost_view_holder
 id gone
@@ -3374,6 +3392,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id image_view
 id immediateStop
 id included
 id indeterminate
@@ -3398,8 +3417,8 @@ id listMode
 id list_item
 id loading1
 id loading2
+id loading3
 id locale
-id loginFragment
 id logo
 id ltr
 id m3_side_sheet
@@ -3438,6 +3457,7 @@ id month_navigation_next
 id month_navigation_previous
 id month_title
 id motion_base
+id movieFragment
 id movieImage
 id movieTitle
 id mtrl_anchor_parent
@@ -3466,7 +3486,6 @@ id mtrl_view_tag_bottom_padding
 id multiply
 id nav_controller_view_tag
 id nav_graph
-id nav_host_fragment
 id nav_host_fragment_container
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
@@ -3507,10 +3526,6 @@ id outline
 id outward
 id overshoot
 id packed
-id page_1
-id page_2
-id page_3
-id page_4
 id parallax
 id parent
 id parentPanel
@@ -3530,6 +3545,7 @@ id pressed
 id progress_circular
 id progress_horizontal
 id radio
+id rating_text_view
 id ratio
 id rectangles
 id report_drawn
@@ -3606,6 +3622,7 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id synopsis_text_view
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -3637,11 +3654,14 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id ticket
+id ticketsFragment
 id time
 id title
 id titleDividerNoCustom
 id title_cineticket
 id title_template
+id title_text_view
 id toggle
 id top
 id topPanel
@@ -3662,6 +3682,7 @@ id useLogo
 id vertical_only
 id view1
 id view2
+id view3
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -3813,8 +3834,12 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_cinemas
+layout fragment_configs
 layout fragment_home
 layout fragment_login
+layout fragment_movie
+layout fragment_tickets
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout m3_alert_dialog
@@ -3836,6 +3861,7 @@ layout material_time_input
 layout material_timepicker
 layout material_timepicker_dialog
 layout material_timepicker_textinput_display
+layout movie
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title

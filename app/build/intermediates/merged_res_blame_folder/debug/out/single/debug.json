@@ -12,6 +12,10 @@
         "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\layout\\fragment_login.xml"
     },
     {
+        "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\drawable_poliana.png.flat",
+        "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\drawable\\poliana.png"
+    },
+    {
         "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
@@ -20,40 +24,56 @@
         "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\drawable\\pointer.png"
     },
     {
+        "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\layout_movie.xml.flat",
+        "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\layout\\movie.xml"
+    },
+    {
         "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\drawable_ic_round_calendar_today_24.xml.flat",
         "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\drawable\\ic_round_calendar_today_24.xml"
+    },
+    {
+        "merged": "com.IFAM.PDM.cineticket.app-merged_res-69:/layout_fragment_movie.xml.flat",
+        "source": "com.IFAM.PDM.cineticket.app-main-71:/layout/fragment_movie.xml"
     },
     {
         "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\layout_card_movie.xml.flat",
         "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\layout\\card_movie.xml"
     },
     {
-        "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\drawable_baseline_home_24.xml.flat",
-        "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\drawable\\baseline_home_24.xml"
-    },
-    {
         "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\drawable-xxhdpi_btn_3.png.flat",
-        "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\drawable-xxhdpi\\btn_3.png"
+        "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\layout_fragment_movie.xml.flat",
+        "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\layout\\fragment_movie.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\layout_fragment_configs.xml.flat",
+        "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\layout\\fragment_configs.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\drawable_digimon.png.flat",
+        "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\drawable\\digimon.png"
     },
     {
         "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\drawable_container_component.xml.flat",
         "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\drawable\\container_component.xml"
     },
     {
+        "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\drawable-xxhdpi_btn_3.png.flat",
+        "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\drawable-xxhdpi\\btn_3.png"
+    },
+    {
         "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\drawable_ic_round_arrow_back_24.xml.flat",
         "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\drawable\\ic_round_arrow_back_24.xml"
     },
     {
-        "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\drawable_baseline_person_24.xml.flat",
-        "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\drawable\\baseline_person_24.xml"
-    },
-    {
         "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\drawable_ic_round_favorite_24.xml.flat",
         "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\drawable\\ic_round_favorite_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\drawable_baseline_person_24.xml.flat",
+        "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\drawable\\baseline_person_24.xml"
     },
     {
         "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\layout_fragment_home.xml.flat",
@@ -68,8 +88,12 @@
         "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.IFAM.PDM.cineticket.app-merged_res-69:/drawable_mussum.png.flat",
-        "source": "com.IFAM.PDM.cineticket.app-main-71:/drawable/mussum.png"
+        "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\layout_fragment_cinemas.xml.flat",
+        "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\layout\\fragment_cinemas.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\drawable_folhas_outono.png.flat",
+        "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\drawable\\folhas_outono.png"
     },
     {
         "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\drawable_ic_round_access_time_24.xml.flat",
@@ -96,8 +120,16 @@
         "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\drawable\\ic_round_star_24.xml"
     },
     {
+        "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\drawable_o_jogo.png.flat",
+        "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\drawable\\o_jogo.png"
+    },
+    {
         "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\drawable_bala_sem_nome.png.flat",
+        "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\drawable\\bala_sem_nome.png"
     },
     {
         "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\drawable_float_icon.png.flat",
@@ -140,12 +172,24 @@
         "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\drawable_napoleao.jpg.flat",
-        "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\drawable\\napoleao.jpg"
+        "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\drawable_monster.png.flat",
+        "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\drawable\\monster.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\layout_fragment_tickets.xml.flat",
+        "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\layout\\fragment_tickets.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\drawable_mussum.png.flat",
+        "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\drawable\\mussum.png"
     },
     {
         "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\drawable_maria.png.flat",
+        "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\drawable\\maria.png"
     },
     {
         "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\drawable-xxhdpi_btn_1.png.flat",
@@ -180,6 +224,10 @@
         "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\drawable\\baseline_lock_24.xml"
     },
     {
+        "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\drawable_os_segredos.png.flat",
+        "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\drawable\\os_segredos.png"
+    },
+    {
         "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\drawable_ic_round_info_24.xml.flat",
         "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\drawable\\ic_round_info_24.xml"
     },
@@ -188,12 +236,12 @@
         "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\drawable\\microphone.png"
     },
     {
-        "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\drawable_bilhete.png.flat",
-        "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\drawable\\bilhete.png"
+        "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\drawable_nct.png.flat",
+        "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\drawable\\nct.png"
     },
     {
-        "merged": "com.IFAM.PDM.cineticket.app-merged_res-69:/drawable_nct.png.flat",
-        "source": "com.IFAM.PDM.cineticket.app-main-71:/drawable/nct.png"
+        "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\drawable_bilhete.png.flat",
+        "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\drawable\\bilhete.png"
     },
     {
         "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\mipmap-hdpi_ic_launcher.webp.flat",
@@ -224,11 +272,11 @@
         "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\drawable_couple_movie_removebg_preview.png.flat",
-        "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\drawable\\couple_movie_removebg_preview.png"
-    },
-    {
         "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-merged_res-69:\\drawable_couple_movie_removebg_preview.png.flat",
+        "source": "C:\\Users\\Matheus\\.gradle\\daemon\\8.0\\com.IFAM.PDM.cineticket.app-main-71:\\drawable\\couple_movie_removebg_preview.png"
     }
 ]

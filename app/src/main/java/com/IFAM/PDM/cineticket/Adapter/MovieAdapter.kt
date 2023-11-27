@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.IFAM.PDM.cineticket.R
 import com.IFAM.PDM.cineticket.model.Movie
 
-class MovieAdapter(private val movies: kotlin.collections.List<Movie>) :
+class MovieAdapter(private val movies: kotlin.collections.List<Movie>, private val clickListener: OnMovieItemClickListener) :
     RecyclerView.Adapter<MovieAdapter.MovieViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MovieViewHolder {
@@ -21,6 +21,10 @@ class MovieAdapter(private val movies: kotlin.collections.List<Movie>) :
         val movie = movies[position]
         holder.movieTitle.text = movie.title
         holder.movieImage.setImageResource(movie.imageDrawableId)
+
+        holder.itemView.setOnClickListener {
+            clickListener.onItemClick(movie)
+        }
     }
 
     override fun getItemCount(): Int {
@@ -30,5 +34,9 @@ class MovieAdapter(private val movies: kotlin.collections.List<Movie>) :
     class MovieViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val movieImage: ImageView = itemView.findViewById(R.id.movieImage)
         val movieTitle: TextView = itemView.findViewById(R.id.movieTitle)
+    }
+
+    interface OnMovieItemClickListener {
+        fun onItemClick(movie: Movie)
     }
 }

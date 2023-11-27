@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1565C0</color>
     <color name="gradient_0">#130B2B</color>
     <color name="gradient_1">#2E1371</color>
     <color name="gradient_2">#5B31C1</color>
@@ -22,7 +24,15 @@
         <item name="android:layout_height">435dp</item>
         <item name="android:background">@drawable/container_component</item>
     </style>
-    <style name="Theme.CineTicket" parent="android:Theme.Material.Light.NoActionBar"/>
+    <style name="Theme.CineTicket" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="android:statusBarColor">@color/gradient_2</item>
+        
+        <item name="colorPrimary">@color/white</item>
+        
+        <item name="android:navigationBarColor">@color/gradient_2</item>
+        
+    </style>
     <style name="WhiteSearchViewStyle" parent="Widget.AppCompat.SearchView">
         <item name="android:colorControlNormal">@android:color/white</item>
         <item name="android:imeOptions">flagNoExtractUi</item>
