@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">CineTicket</string>
+    <string name="logo">Logo CineTicket</string>
+    <string name="img">Imagem de Fundo</string>
+    <string name="text_cadastrar">Cadastrar</string>
+    <string name="edit_nome">Nome</string>
+    <string name="edit_sobrenome"> Sobrenome</string>
+    <string name="edit_celular"> Celular</string>
+    <string name="edit_email"> E-mail</string>
+    <string name="edit_senha"> Senha</string>
+    <string name="edit_confirma_senha"> Confirma Senha</string>
+    <string name="text_termos">Eu aceito os <b>Termos de Uso</b> e <b>Política de Privacidade</b></string>
+    <string name="btn_cadastrar">Cadastrar</string>
+    <string name="btn_login">Já possui uma conta? <b>Faça Login</b></string>
 </resources>

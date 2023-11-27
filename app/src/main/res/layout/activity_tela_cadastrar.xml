@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_violet"
+    tools:context=".TelaCadastrar">
+
+    <LinearLayout
+        android:id="@+id/cadastrar"
+        android:layout_width="410dp"
+        android:layout_height="460dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/img_background"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck">
+
+        <TextView
+            android:id="@+id/text_cadastrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/sakkal_majalla"
+            android:text="@string/text_cadastrar"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="35sp" />
+
+        <LinearLayout
+            android:id="@+id/nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edit_nome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:autofillHints=""
+                android:drawableStart="@drawable/ic_person"
+                android:drawablePadding="15dp"
+                android:ems="10"
+                android:fontFamily="@font/raleway"
+                android:hint="@string/edit_nome"
+                android:inputType="text"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/edit_sobrenome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:drawableStart="@drawable/ic_person"
+                android:drawablePadding="15dp"
+                android:ems="10"
+                android:fontFamily="@font/raleway"
+                android:hint="@string/edit_sobrenome"
+                android:inputType="text"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edit_telefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:autofillHints=""
+            android:drawableStart="@drawable/ic_phone"
+            android:drawablePadding="15dp"
+            android:ems="10"
+            android:fontFamily="@font/raleway"
+            android:hint="@string/edit_celular"
+            android:inputType="phone"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/edit_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:autofillHints=""
+            android:drawableStart="@drawable/ic_mail"
+            android:drawablePadding="15dp"
+            android:ems="10"
+            android:fontFamily="@font/raleway"
+            android:hint="@string/edit_email"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/edit_senha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:autofillHints=""
+            android:drawableStart="@drawable/ic_lock"
+            android:drawablePadding="15dp"
+            android:ems="10"
+            android:fontFamily="@font/raleway"
+            android:hint="@string/edit_senha"
+            android:inputType="textPassword"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/edit_confirma_senha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:autofillHints=""
+            android:drawableStart="@drawable/ic_lock"
+            android:drawablePadding="15dp"
+            android:ems="10"
+            android:fontFamily="@font/raleway"
+            android:hint="@string/edit_confirma_senha"
+            android:inputType="textPassword"
+            android:minHeight="48dp" />
+
+        <CheckBox
+            android:id="@+id/text_termos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/raleway"
+            android:minHeight="48dp"
+            android:text="@string/text_termos"
+            android:textColor="@color/black"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/btn_cadastrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/img_corner_radius"
+            android:fontFamily="@font/raleway"
+            android:text="@string/btn_cadastrar"
+            android:textColor="@color/white"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:background="@color/transparent"
+            android:fontFamily="@font/raleway"
+            android:text="@string/btn_login"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            tools:ignore="VisualLintButtonSize" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:contentDescription="@string/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_logo" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="300dp"
+        android:layout_height="320dp"
+        android:layout_marginBottom="370dp"
+        android:contentDescription="@string/img"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/img_horror_movie" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
