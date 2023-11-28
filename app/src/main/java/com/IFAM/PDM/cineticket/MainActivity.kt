@@ -2,6 +2,7 @@ package com.IFAM.PDM.cineticket
 
 import android.content.Context
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import androidx.activity.ComponentActivity
 import androidx.appcompat.app.AppCompatActivity
@@ -9,7 +10,9 @@ import com.IFAM.PDM.cineticket.Fragments.LoginFragment
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.fragment.app.FragmentManager
+import androidx.navigation.NavController
 import androidx.navigation.Navigation
+import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
 import com.IFAM.PDM.cineticket.Fragments.CinemasFragment
 import com.IFAM.PDM.cineticket.Fragments.ConfigsFragment
@@ -19,24 +22,28 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
 
-    private val fragmentContainerId = R.id.fragment_container
+    private lateinit var navController: NavController
 
     private val onNavigationItemSelectedListener =
         BottomNavigationView.OnNavigationItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.home -> {
+                    showBottomNavigation()
                     replaceFragment(HomeFragment())
                     return@OnNavigationItemSelectedListener true
                 }
                 R.id.cinemas -> {
+                    showBottomNavigation()
                     replaceFragment(CinemasFragment())
                     return@OnNavigationItemSelectedListener true
                 }
                 R.id.ticket -> {
+                    showBottomNavigation()
                     replaceFragment(TicketsFragment())
                     return@OnNavigationItemSelectedListener true
                 }
                 R.id.config -> {
+                    showBottomNavigation()
                     replaceFragment(ConfigsFragment())
                     return@OnNavigationItemSelectedListener true
                 }
@@ -49,9 +56,13 @@ class MainActivity : AppCompatActivity() {
             false
         }
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
+        navController = navHostFragment.navController
 
         val bottomNavigationView: BottomNavigationView = findViewById(R.id.bottom_navigation)
         bottomNavigationView.setOnNavigationItemSelectedListener(onNavigationItemSelectedListener)
@@ -59,9 +70,11 @@ class MainActivity : AppCompatActivity() {
         // Verifica se o usuário já está autenticado
         if (isUserLoggedIn()) {
             replaceFragment(HomeFragment())
+            showBottomNavigation()
         } else {
             // Se o usuário não está autenticado, exibe o fragmento de login
             replaceFragment(LoginFragment())
+            hideBottomNavigation()
         }
 
     }
@@ -71,15 +84,29 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun replaceFragment(fragment: Fragment) {
-        supportFragmentManager.beginTransaction()
-            .replace(fragmentContainerId, fragment)
-            .commit()
+        val navController = findNavController(R.id.nav_host_fragment)
+
+        // Use o ID do destino diretamente
+        val destinationId = when (fragment) {
+            is HomeFragment -> R.id.homeFragment
+            is CinemasFragment -> R.id.cinemasFragment
+            is TicketsFragment -> R.id.ticketsFragment
+            is ConfigsFragment -> R.id.configsFragment
+            is LoginFragment -> R.id.loginFragment
+            else -> throw IllegalArgumentException("ID de destino não definido para o fragmento: $fragment")
+        }
+
+        // Navegar para o destino
+        navController.navigate(destinationId)
     }
+
 
     private fun hideBottomNavigation() {
         val bottomNavigationView: BottomNavigationView = findViewById(R.id.bottom_navigation)
         bottomNavigationView.visibility = View.GONE
+        Log.d("MainActivity", "BottomNavigation hidden")
     }
+
 
     private fun showBottomNavigation() {
         val bottomNavigationView: BottomNavigationView = findViewById(R.id.bottom_navigation)

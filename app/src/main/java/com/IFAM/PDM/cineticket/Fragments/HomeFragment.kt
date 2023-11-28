@@ -87,14 +87,11 @@ class HomeFragment : Fragment(), MovieAdapter.OnMovieItemClickListener {
         val bundle = Bundle()
         bundle.putParcelable("movie", movie)
 
-        val movieDetailFragment = MovieFragment()
-        movieDetailFragment.arguments = bundle
+        val navController = Navigation.findNavController(requireActivity(), R.id.nav_host_fragment)
 
         // Navegar para o fragmento de detalhes do filme
-        requireActivity().supportFragmentManager.beginTransaction()
-            .replace(R.id.fragment_container, movieDetailFragment)
-            .addToBackStack(null)
-            .commit()
+        navController.navigate(R.id.action_homeFragment_to_movieDetailFragment, bundle)
     }
+
 
 }

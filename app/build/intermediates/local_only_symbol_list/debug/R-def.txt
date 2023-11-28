@@ -73,7 +73,6 @@ id email
 id filmes_em_alta
 id filmes_em_breve
 id filmes_em_cartaz
-id fragment_container
 id genre_text_view
 id home
 id homeFragment
@@ -87,6 +86,7 @@ id movieFragment
 id movieImage
 id movieTitle
 id nav_graph
+id nav_host_fragment
 id password
 id rating_text_view
 id scrollView2
