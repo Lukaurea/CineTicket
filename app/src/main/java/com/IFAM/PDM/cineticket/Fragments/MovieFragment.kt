@@ -20,9 +20,7 @@ class MovieFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.movie, container, false)
-        // Obtenha referências para os elementos de item_movie.xml
         val imageView: ImageView = view.findViewById(R.id.image_view)
         val titleTextView: TextView = view.findViewById(R.id.title_text_view)
         val genreTextView: TextView = view.findViewById(R.id.genre_text_view)
@@ -43,7 +41,5 @@ class MovieFragment : Fragment() {
         val movieId = arguments?.getString("movieId")
         val movie: Movie? = arguments?.getParcelable("movie")
 
-        // Use o movieId para carregar os detalhes do filme
-        // Restante do código...
     }
 }

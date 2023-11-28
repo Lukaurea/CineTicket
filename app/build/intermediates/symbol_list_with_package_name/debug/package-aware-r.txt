@@ -3210,11 +3210,13 @@ id action_bar_root
 id action_bar_spinner
 id action_bar_subtitle
 id action_bar_title
+id action_configsFragment_to_loginFragment
 id action_container
 id action_context_bar
 id action_divider
 id action_homeFragment_to_movieDetailFragment
 id action_image
+id action_loginFragment_to_homeFragment
 id action_menu_divider
 id action_menu_presenter
 id action_mode_bar
@@ -3254,6 +3256,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnSair
 id btn_entrar
 id buttonPanel
 id cache_measures
@@ -3419,6 +3422,7 @@ id loading1
 id loading2
 id loading3
 id locale
+id loginFragment
 id logo
 id ltr
 id m3_side_sheet

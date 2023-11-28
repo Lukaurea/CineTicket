@@ -58,8 +58,11 @@ drawable search
 drawable taylor
 drawable trolls
 id ContainerComponents
+id action_configsFragment_to_loginFragment
 id action_homeFragment_to_movieDetailFragment
+id action_loginFragment_to_homeFragment
 id bottom_navigation
+id btnSair
 id btn_entrar
 id cast_text_view
 id cinemas
@@ -78,6 +81,7 @@ id image_view
 id loading1
 id loading2
 id loading3
+id loginFragment
 id logo
 id movieFragment
 id movieImage

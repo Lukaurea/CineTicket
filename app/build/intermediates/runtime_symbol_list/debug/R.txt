@@ -3209,11 +3209,13 @@ int id action_bar_root 0x7f080037
 int id action_bar_spinner 0x7f080038
 int id action_bar_subtitle 0x7f080039
 int id action_bar_title 0x7f08003a
+int id action_configsFragment_to_loginFragment 0x7f08022a
 int id action_container 0x7f08003b
 int id action_context_bar 0x7f08003c
 int id action_divider 0x7f08003d
 int id action_homeFragment_to_movieDetailFragment 0x7f080224
 int id action_image 0x7f08003e
+int id action_loginFragment_to_homeFragment 0x7f080227
 int id action_menu_divider 0x7f08003f
 int id action_menu_presenter 0x7f080040
 int id action_mode_bar 0x7f080041
@@ -3253,6 +3255,7 @@ int id bounce 0x7f080062
 int id bounceBoth 0x7f080063
 int id bounceEnd 0x7f080064
 int id bounceStart 0x7f080065
+int id btnSair 0x7f080229
 int id btn_entrar 0x7f080066
 int id buttonPanel 0x7f080067
 int id cache_measures 0x7f080068
@@ -3418,6 +3421,7 @@ int id loading1 0x7f080104
 int id loading2 0x7f080105
 int id loading3 0x7f080106
 int id locale 0x7f080107
+int id loginFragment 0x7f080228
 int id logo 0x7f080108
 int id ltr 0x7f080109
 int id m3_side_sheet 0x7f08010a

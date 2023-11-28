@@ -1,6 +1,8 @@
 package com.IFAM.PDM.cineticket
 
+import android.content.Context
 import android.os.Bundle
+import android.view.View
 import androidx.activity.ComponentActivity
 import androidx.appcompat.app.AppCompatActivity
 import com.IFAM.PDM.cineticket.Fragments.LoginFragment
@@ -38,6 +40,11 @@ class MainActivity : AppCompatActivity() {
                     replaceFragment(ConfigsFragment())
                     return@OnNavigationItemSelectedListener true
                 }
+                R.id.loginFragment -> {
+                    hideBottomNavigation()
+                    replaceFragment(LoginFragment())
+                    return@OnNavigationItemSelectedListener true
+                }
             }
             false
         }
@@ -49,41 +56,33 @@ class MainActivity : AppCompatActivity() {
         val bottomNavigationView: BottomNavigationView = findViewById(R.id.bottom_navigation)
         bottomNavigationView.setOnNavigationItemSelectedListener(onNavigationItemSelectedListener)
 
-        // Se for a primeira vez que a atividade está sendo criada, exibe o fragmento inicial
-        if (savedInstanceState == null) {
+        // Verifica se o usuário já está autenticado
+        if (isUserLoggedIn()) {
             replaceFragment(HomeFragment())
+        } else {
+            // Se o usuário não está autenticado, exibe o fragmento de login
+            replaceFragment(LoginFragment())
         }
 
-//        if (savedInstanceState == null) {
-//            supportFragmentManager.beginTransaction()
-//                .replace(R.id.nav_host_fragment, NavHostFragment.create(R.navigation.nav_graph))
-//                .commit()
-//        }
-
-//        val navController = Navigation.findNavController(requireActivity(), R.id.nav_host_container)
-//
-//        // Configurar o BottomNavigationView
-//        val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottom_navigation)
-//        bottomNavigationView.setOnNavigationItemSelectedListener { item ->
-//            when (item.itemId) {
-//                R.id.page_1 -> {
-//                    // Verifica se já está no HomeFragment antes de navegar
-//                    if (navController.currentDestination?.id != R.id.homeFragment) {
-//                        navController.navigate(R.id.homeFragment)
-//                    }
-//                    true
-//                }
-//                R.id.page_2 -> {
-//                    navController.navigate(R.id.cinemasFragment)
-//                    true
-//                }
-//                else -> false
-//            }
-//        }
     }
+    private fun isUserLoggedIn(): Boolean {
+        val sharedPreferences = getPreferences(Context.MODE_PRIVATE)
+        return sharedPreferences.getBoolean("isLoggedIn", false)
+    }
+
     private fun replaceFragment(fragment: Fragment) {
         supportFragmentManager.beginTransaction()
             .replace(fragmentContainerId, fragment)
             .commit()
+    }
+
+    private fun hideBottomNavigation() {
+        val bottomNavigationView: BottomNavigationView = findViewById(R.id.bottom_navigation)
+        bottomNavigationView.visibility = View.GONE
+    }
+
+    private fun showBottomNavigation() {
+        val bottomNavigationView: BottomNavigationView = findViewById(R.id.bottom_navigation)
+        bottomNavigationView.visibility = View.VISIBLE
     }
 }
