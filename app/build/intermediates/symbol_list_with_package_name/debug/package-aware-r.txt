@@ -3020,6 +3020,8 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable casal_sentado
+drawable cine_ticket
 drawable container_component
 drawable couple_movie_removebg_preview
 drawable design_fab_background
@@ -3028,9 +3030,11 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable digimon
+drawable facebook
 drawable five_nights
 drawable float_icon
 drawable folhas_outono
+drawable google
 drawable home
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
@@ -3143,6 +3147,7 @@ drawable notify_panel_notification_icon_bg
 drawable o_jogo
 drawable o_pai
 drawable os_segredos
+drawable person
 drawable pointer
 drawable poliana
 drawable search
@@ -3210,12 +3215,14 @@ id action_bar_root
 id action_bar_spinner
 id action_bar_subtitle
 id action_bar_title
+id action_cadastroFragment_to_loginFragment
 id action_configsFragment_to_loginFragment
 id action_container
 id action_context_bar
 id action_divider
 id action_homeFragment_to_movieDetailFragment
 id action_image
+id action_loginFragment_to_cadastroFragment
 id action_loginFragment_to_homeFragment
 id action_menu_divider
 id action_menu_presenter
@@ -3257,13 +3264,19 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btnSair
+id btn_cadastrar
 id btn_entrar
+id btn_login_facebook
+id btn_login_google
+id btn_login_guest
 id buttonPanel
 id cache_measures
+id cadastroFragment
 id callMeasure
 id cancel_button
 id carryVelocity
 id cast_text_view
+id celular
 id center
 id centerCrop
 id centerInside
@@ -3277,6 +3290,7 @@ id checked
 id chronometer
 id cinemas
 id cinemasFragment
+id cineticket
 id circle_center
 id clear_text
 id clip_horizontal
@@ -3289,6 +3303,7 @@ id compress
 id config
 id configsFragment
 id confirm_button
+id confirmar_senha
 id constraint
 id consume_window_insets_tag
 id container
@@ -3422,6 +3437,7 @@ id loading2
 id loading3
 id locale
 id loginFragment
+id loginSocialButtons
 id logo
 id ltr
 id m3_side_sheet
@@ -3503,6 +3519,7 @@ id neverCompleteToEnd
 id neverCompleteToStart
 id noScroll
 id noState
+id nome
 id none
 id normal
 id north
@@ -3586,6 +3603,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id senha
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -3602,6 +3620,7 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
+id sobrenome
 id south
 id spacer
 id special_effects_controller_view_tag
@@ -3650,6 +3669,7 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textViewLogin
+id textViewRegister
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3839,6 +3859,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_cadastro
 layout fragment_cinemas
 layout fragment_configs
 layout fragment_home

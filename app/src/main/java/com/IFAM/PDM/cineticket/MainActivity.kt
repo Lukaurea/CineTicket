@@ -11,44 +11,42 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.fragment.app.FragmentManager
 import androidx.navigation.NavController
+import com.IFAM.PDM.cineticket.R
 import androidx.navigation.Navigation
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
 import com.IFAM.PDM.cineticket.Fragments.CinemasFragment
 import com.IFAM.PDM.cineticket.Fragments.ConfigsFragment
 import com.IFAM.PDM.cineticket.Fragments.HomeFragment
+import com.IFAM.PDM.cineticket.Fragments.OnLoginStatusChangeListener
 import com.IFAM.PDM.cineticket.Fragments.TicketsFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), OnLoginStatusChangeListener {
 
     private lateinit var navController: NavController
+    private lateinit var navHostFragment: NavHostFragment
 
     private val onNavigationItemSelectedListener =
         BottomNavigationView.OnNavigationItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.home -> {
-                    showBottomNavigation()
                     replaceFragment(HomeFragment())
                     return@OnNavigationItemSelectedListener true
                 }
                 R.id.cinemas -> {
-                    showBottomNavigation()
                     replaceFragment(CinemasFragment())
                     return@OnNavigationItemSelectedListener true
                 }
                 R.id.ticket -> {
-                    showBottomNavigation()
                     replaceFragment(TicketsFragment())
                     return@OnNavigationItemSelectedListener true
                 }
                 R.id.config -> {
-                    showBottomNavigation()
                     replaceFragment(ConfigsFragment())
                     return@OnNavigationItemSelectedListener true
                 }
                 R.id.loginFragment -> {
-                    hideBottomNavigation()
                     replaceFragment(LoginFragment())
                     return@OnNavigationItemSelectedListener true
                 }
@@ -67,6 +65,8 @@ class MainActivity : AppCompatActivity() {
         val bottomNavigationView: BottomNavigationView = findViewById(R.id.bottom_navigation)
         bottomNavigationView.setOnNavigationItemSelectedListener(onNavigationItemSelectedListener)
 
+
+
         // Verifica se o usuário já está autenticado
         if (isUserLoggedIn()) {
             replaceFragment(HomeFragment())
@@ -76,7 +76,6 @@ class MainActivity : AppCompatActivity() {
             replaceFragment(LoginFragment())
             hideBottomNavigation()
         }
-
     }
     private fun isUserLoggedIn(): Boolean {
         val sharedPreferences = getPreferences(Context.MODE_PRIVATE)
@@ -100,6 +99,14 @@ class MainActivity : AppCompatActivity() {
         navController.navigate(destinationId)
     }
 
+    override fun onLoginStatusChanged(isLoggedIn: Boolean) {
+        if (isLoggedIn) {
+            showBottomNavigation()
+        } else {
+            hideBottomNavigation()
+        }
+    }
+
 
     private fun hideBottomNavigation() {
         val bottomNavigationView: BottomNavigationView = findViewById(R.id.bottom_navigation)
@@ -112,4 +119,6 @@ class MainActivity : AppCompatActivity() {
         val bottomNavigationView: BottomNavigationView = findViewById(R.id.bottom_navigation)
         bottomNavigationView.visibility = View.VISIBLE
     }
+
+
 }
