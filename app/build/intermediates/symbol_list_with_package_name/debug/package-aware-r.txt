@@ -2105,6 +2105,7 @@ color primary_text_disabled_material_light
 color purple_200
 color purple_500
 color purple_700
+color red
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -2999,6 +3000,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable araujo
 drawable assasinos_lua
 drawable avd_hide_password
 drawable avd_show_password
@@ -3021,7 +3023,9 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable casal_sentado
+drawable centerplex
 drawable cine_ticket
+drawable cinepolis
 drawable container_component
 drawable couple_movie_removebg_preview
 drawable design_fab_background
@@ -3030,6 +3034,8 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable digimon
+drawable email_pagamentos
+drawable excluir
 drawable facebook
 drawable five_nights
 drawable float_icon
@@ -3063,7 +3069,10 @@ drawable ic_round_info_24
 drawable ic_round_person_24
 drawable ic_round_star_24
 drawable ic_search_black_24
+drawable informacao_pessoal
+drawable ingressos
 drawable jogos_vor
+drawable kinoplex
 drawable m3_appbar_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3131,6 +3140,7 @@ drawable mussum
 drawable napoleao
 drawable navigation_empty_icon
 drawable nct
+drawable notification
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -3156,6 +3166,7 @@ drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable trolls
+drawable uci
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3282,14 +3293,24 @@ id centerCrop
 id centerInside
 id center_horizontal
 id center_vertical
+id centerplex
+id centerplexText
 id chain
 id chain2
 id chains
 id checkbox
 id checked
 id chronometer
+id cinemaAraujo
+id cinemaAraujoText
 id cinemas
 id cinemasFragment
+id cinepolisMillenium
+id cinepolisMilleniumText
+id cinepolisPlaza
+id cinepolisPlazaText
+id cinepolisPn
+id cinepolisPnText
 id cineticket
 id circle_center
 id clear_text
@@ -3319,6 +3340,8 @@ id currentState
 id custom
 id customPanel
 id cut
+id dadospessoais
+id dadospessoaisText
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -3326,6 +3349,8 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id desativarconta
+id desativarcontaText
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -3357,6 +3382,8 @@ id edit_query
 id edit_text_id
 id elastic
 id email
+id emailspagamentos
+id emailspagamentosText
 id embed
 id end
 id endToStart
@@ -3422,6 +3449,8 @@ id italic
 id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
+id kinoplex
+id kinoplexText
 id labeled
 id layout
 id left
@@ -3467,6 +3496,8 @@ id material_timepicker_view
 id material_value_index
 id matrix
 id message
+id meusTickets
+id meusTicketsText
 id middle
 id mini
 id month_grid
@@ -3526,6 +3557,8 @@ id north
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id notifications
+id notificationsText
 id off
 id on
 id onInterceptTouchReturnSwipe
@@ -3699,6 +3732,10 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id uciSumaumaText
+id ucimanauara
+id ucimanauaraText
+id ucisumauma
 id unchecked
 id uniform
 id unlabeled

@@ -9,6 +9,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ProgressBar
 import android.widget.TextView
 import android.widget.Toast
 import com.IFAM.PDM.cineticket.R
@@ -44,11 +45,12 @@ class LoginFragment : Fragment() {
         val entrarButton = view.findViewById<Button>(R.id.btn_entrar)
         val emailEditText = view.findViewById<EditText>(R.id.email)
         val passwordEditText = view.findViewById<EditText>(R.id.password)
-
+//        val progressBar = view.findViewById<ProgressBar>(R.id.progressBar)
 
         entrarButton.setOnClickListener {
             val email = emailEditText.text.toString()
             val password = passwordEditText.text.toString()
+//            progressBar.visibility = View.VISIBLE
 
             if (isValidCredentials(email, password)) {
                 saveLoginState(true)
@@ -57,6 +59,8 @@ class LoginFragment : Fragment() {
             } else {
                 Toast.makeText(requireContext(), "Credenciais inválidas", Toast.LENGTH_SHORT).show()
             }
+
+//            progressBar.visibility = View.GONE
         }
 
         return view
