@@ -10,4 +10,13 @@
     <color name="dark_violet">#130B2B</color>
     <color name="violet">#2E1371</color>
     <color name="transparent">#00FFFFFF</color>
+
+    <color name="gradient_0">#130B2B</color>
+    <color name="gradient_1">#2E1371</color>
+    <color name="gradient_2">#5B31C1</color>
+    <color name="gradient_3">#7B70FF</color>
+    <color name="gradient_4">#739AFF</color>
+    <color name="red">#FFFF0000</color>
+
+
 </resources>

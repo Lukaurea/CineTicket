@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<!--    <style name="Theme.CineTicket" parent="Theme.AppCompat.Light.NoActionBar"/>-->
+<!--    <style name="Theme.CineTicket" parent="android:Theme.Material.Light.NoActionBar" />-->
+    <style name="Theme.CineTicket" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Adiciona a cor da barra de status -->
+        <item name="android:statusBarColor">@color/gradient_2</item>
+        <!-- Adiciona a cor principal do aplicativo -->
+        <item name="colorPrimary">@color/white</item>
+        <!-- Adiciona a cor da barra de navegação -->
+        <item name="android:navigationBarColor">@color/gradient_2</item>
+        <!-- Outras configurações do tema... -->
+    </style>
 
-    <style name="Theme.CineTicket" parent="android:Theme.Material.Light.NoActionBar" />
+    <!-- Defina as cores personalizadas que você deseja usar -->
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1565C0</color>
 </resources>

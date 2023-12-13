@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ContainerComponents">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">435dp</item>
+        <item name="android:background">@drawable/container_component</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+    </style>
+
+    <style name="WhiteSearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="android:colorControlNormal">@android:color/white</item>
+        <item name="android:imeOptions">flagNoExtractUi</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>
