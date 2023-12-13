@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/CinemasLocais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Cinemas"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/araujoimg"
+        app:layout_constraintBottom_toBottomOf="@+id/CinemasLocais"
+        app:layout_constraintTop_toTopOf="@+id/CinemasLocais"
+
+        >
+
+    </ImageView>
+
+    <LinearLayout
+        android:id="@+id/container_categorias"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:background="@color/white"
+        app:layout_constrainBottom_toBottomOf="parent"
+        app:layout_constrainTop_toBottomOf="@+id/view"
+
+        >
+
+    </LinearLayout>
+
+    <view
+        android:id="@+id/view"
+        class="android.widget.TextView"
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4">
+
+    </view>
+
+</LinearLayout>
