@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/background"
-    tools:context=".Fragments.CinemasFragment">
+    tools:context=".view.fragments.CinemasFragment">
 
     <ScrollView
         android:id="@+id/scrollView2"
@@ -19,7 +19,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginTop="20dp">
 
@@ -31,7 +31,7 @@
             android:layout_marginBottom="16dp"
             android:text="Cinemas"
             android:textColor="@color/white"
-            android:textSize="30dp" />
+            android:textSize="30sp" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -46,7 +46,7 @@
                 android:id="@+id/ucimanauara"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/uci"/>
+                android:src="@drawable/cinema_uci"/>
 
             <TextView
                 android:id="@+id/ucimanauaraText"
@@ -72,7 +72,7 @@
                 android:id="@+id/ucisumauma"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/uci"/>
+                android:src="@drawable/cinema_uci"/>
 
             <TextView
                 android:id="@+id/uciSumaumaText"
@@ -98,7 +98,7 @@
                 android:id="@+id/cinepolisMillenium"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/cinepolis"/>
+                android:src="@drawable/cinema_cinepolis"/>
 
             <TextView
                 android:id="@+id/cinepolisMilleniumText"
@@ -124,7 +124,7 @@
                 android:id="@+id/cinepolisPlaza"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/cinepolis"/>
+                android:src="@drawable/cinema_cinepolis"/>
 
             <TextView
                 android:id="@+id/cinepolisPlazaText"
@@ -150,7 +150,7 @@
                 android:id="@+id/cinepolisPn"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/cinepolis"/>
+                android:src="@drawable/cinema_cinepolis"/>
 
             <TextView
                 android:id="@+id/cinepolisPnText"
@@ -176,7 +176,7 @@
                 android:id="@+id/kinoplex"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/kinoplex"/>
+                android:src="@drawable/cinema_kinoplex"/>
 
             <TextView
                 android:id="@+id/kinoplexText"
@@ -202,7 +202,7 @@
                 android:id="@+id/cinemaAraujo"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/araujo"/>
+                android:src="@drawable/cinema_araujo"/>
 
             <TextView
                 android:id="@+id/cinemaAraujoText"
@@ -228,7 +228,7 @@
                 android:id="@+id/centerplex"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/centerplex"/>
+                android:src="@drawable/cinema_centerplex"/>
 
             <TextView
                 android:id="@+id/centerplexText"

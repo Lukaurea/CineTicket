@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".Fragments.HomeFragment">
+    tools:context=".view.fragments.HomeFragment">
 
     <ScrollView
         android:id="@+id/scrollView2"
@@ -45,8 +45,8 @@
                 android:textColorHint="@android:color/white"
                 android:textColor="@color/white"
                 android:textSize="16sp"
-                android:drawableStart="@drawable/search"
-                android:drawableEnd="@drawable/microphone"
+                android:drawableStart="@drawable/ic_search"
+                android:drawableEnd="@drawable/ic_microphone"
                 android:ems="10"
                 android:inputType="text"
                 android:background="@color/gradient_1"/>

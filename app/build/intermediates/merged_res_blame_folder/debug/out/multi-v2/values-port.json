@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.IFAM.PDM.cineticket.app-mergeDebugResources-67:/values-port/values-port.xml",
+            "outputFile": "com.ifam.pdm.cineticket.app-mergeDebugResources-75:/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Matheus\\.gradle\\caches\\transforms-3\\527dae1ae0a8e438a6654c37e7552e99\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
+                    "source": "C:\\Users\\Davi Souza\\.gradle\\caches\\transforms-3\\4d52a5e20150e059021def9866c64688\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

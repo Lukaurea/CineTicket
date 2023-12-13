@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.IFAM.PDM.cineticket.app-mergeDebugResources-67:/values-land/values-land.xml",
+            "outputFile": "com.ifam.pdm.cineticket.app-mergeDebugResources-75:/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Matheus\\.gradle\\caches\\transforms-3\\527dae1ae0a8e438a6654c37e7552e99\\transformed\\appcompat-1.6.1\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Davi Souza\\.gradle\\caches\\transforms-3\\4d52a5e20150e059021def9866c64688\\transformed\\appcompat-1.6.1\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Matheus\\.gradle\\caches\\transforms-3\\b40a352becb0b91575ebb7e4a4020a6d\\transformed\\material-1.10.0\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Davi Souza\\.gradle\\caches\\transforms-3\\6dcfdd9fc8b330392f3873d8b2f242a1\\transformed\\material-1.10.0\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,26,35,40",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

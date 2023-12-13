@@ -23,7 +23,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/$PROJECT_DIR$/../../../Davi%20Souza/AppData/Local/Android/Sdk/icons/material/materialicons/people/baseline_people_24.xml" />
+                                      <entry key="url" value="file:/$PROJECT_DIR$/../../../Davi%20Souza/AppData/Local/Android/Sdk/icons/material/materialicons/phone/baseline_phone_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -33,7 +33,7 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="baseline_people_24" />
+                            <entry key="outputName" value="baseline_phone_24" />
                             <entry key="sourceFile" value="C:\Users\Davi-Souza\AndroidStudioProjects\CineTicket" />
                           </map>
                         </option>

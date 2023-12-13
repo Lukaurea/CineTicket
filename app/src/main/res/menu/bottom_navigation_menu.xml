@@ -4,21 +4,21 @@
     <item
         android:id="@+id/home"
         android:enabled="true"
-        android:icon="@drawable/home"
+        android:icon="@drawable/ic_home"
         android:title="Home" />
     <item
         android:id="@+id/cinemas"
         android:enabled="true"
-        android:icon="@drawable/pointer"
+        android:icon="@drawable/ic_pointer"
         android:title="Cinemas" />
     <item
         android:id="@+id/ticket"
         android:enabled="true"
-        android:icon="@drawable/bilhete"
+        android:icon="@drawable/ic_bilhete"
         android:title="Tickets" />
     <item
         android:id="@+id/config"
         android:enabled="true"
-        android:icon="@drawable/baseline_person_24"
+        android:icon="@drawable/ic_person"
         android:title="Conta" />
 </menu>

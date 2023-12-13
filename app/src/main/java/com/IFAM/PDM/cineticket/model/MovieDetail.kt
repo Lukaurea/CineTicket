@@ -1,4 +1,4 @@
-package com.IFAM.PDM.cineticket.model
+package com.ifam.pdm.cineticket.model
 
 data class MovieDetail (
     val title: String,

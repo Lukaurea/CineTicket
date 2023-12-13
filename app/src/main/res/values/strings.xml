@@ -12,8 +12,14 @@
     <string name="text_termos">Eu aceito os <b>Termos de Uso</b> e <b>Política de Privacidade</b></string>
     <string name="btn_cadastrar">Cadastrar</string>
     <string name="btn_login">Já possui uma conta? <b>Faça Login</b></string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="cineticket">CineTicket</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="login">Login</string>
+    <string name="btn_entrar">Entrar</string>
+    <string name="img_facebook">Login com Facebook</string>
+    <string name="img_google">Login com Google</string>
+    <string name="img_guest">Login como visitante</string>
+    <string name="btn_ir_cadastrar">Não tem conta? Clique aqui para cadastrar-se</string>
 
 </resources>

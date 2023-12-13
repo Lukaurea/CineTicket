@@ -6,7 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/background"
     android:padding="16dp"
-    tools:context=".Fragments.ConfigsFragment">
+    tools:context=".view.fragments.ConfigsFragment">
 
     <ScrollView
         android:id="@+id/scrollView2"
@@ -54,7 +54,7 @@
                 android:id="@+id/dadospessoais"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/informacao_pessoal"/>
+                android:src="@drawable/ic_informacao_pessoal"/>
 
             <TextView
                 android:id="@+id/dadospessoaisText"
@@ -80,7 +80,7 @@
                 android:id="@+id/emailspagamentos"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/email_pagamentos"/>
+                android:src="@drawable/ic_email_pagamentos"/>
 
             <TextView
                 android:id="@+id/emailspagamentosText"
@@ -106,7 +106,7 @@
                 android:id="@+id/desativarconta"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/excluir"/>
+                android:src="@drawable/ic_excluir"/>
 
             <TextView
                 android:id="@+id/desativarcontaText"
@@ -142,7 +142,7 @@
                 android:id="@+id/notifications"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/notification"/>
+                android:src="@drawable/ic_notification"/>
 
             <TextView
                 android:id="@+id/notificationsText"
@@ -168,7 +168,7 @@
                 android:id="@+id/meusTickets"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/ingressos"/>
+                android:src="@drawable/ic_ingressos"/>
 
             <TextView
                 android:id="@+id/meusTicketsText"

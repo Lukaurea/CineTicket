@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "494317058534",
+    "project_id": "cineticket-de19a",
+    "storage_bucket": "cineticket-de19a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494317058534:android:96314e8628b72db510fe27",
+        "android_client_info": {
+          "package_name": "com.ifam.pdm.cineticket"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc76qGCbjqHSaJD1aJaJoZQ9S80GIvnTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

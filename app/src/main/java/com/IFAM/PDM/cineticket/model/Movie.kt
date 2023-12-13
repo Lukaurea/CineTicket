@@ -1,4 +1,4 @@
-package com.IFAM.PDM.cineticket.model
+package com.ifam.pdm.cineticket.model
 
 import android.os.Parcel
 import android.os.Parcelable

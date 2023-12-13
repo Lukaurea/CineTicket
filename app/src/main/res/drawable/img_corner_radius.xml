@@ -1,4 +1,0 @@
-<shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@color/violet" /> <!-- Substitua "sua_cor_de_fundo" pela cor desejada -->
-    <corners android:radius="15dp" /> <!-- Ajuste o valor do raio conforme necessário -->
-</shape>
