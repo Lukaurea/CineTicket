@@ -9,10 +9,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="com.ifam.pdm.cineticket" />
-                  <option name="mobileSdkAppId" value="1:494317058534:android:96314e8628b72db510fe27" />
-                  <option name="projectId" value="cineticket-de19a" />
-                  <option name="projectNumber" value="494317058534" />
+                  <option name="appId" value="PLACEHOLDER" />
+                  <option name="mobileSdkAppId" value="" />
+                  <option name="projectId" value="" />
+                  <option name="projectNumber" value="" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

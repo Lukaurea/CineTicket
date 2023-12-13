@@ -1,4 +1,4 @@
-package com.ifam.pdm.cineticket.presenter
+package com.IFAM.PDM.cineticket.presenter
 
 import android.content.Context
 import android.os.Bundle
@@ -9,13 +9,13 @@ import androidx.navigation.NavController
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.ifam.pdm.cineticket.R
-import com.ifam.pdm.cineticket.view.fragments.CinemasFragment
-import com.ifam.pdm.cineticket.view.fragments.ConfigsFragment
-import com.ifam.pdm.cineticket.view.fragments.HomeFragment
-import com.ifam.pdm.cineticket.view.fragments.LoginFragment
-import com.ifam.pdm.cineticket.view.fragments.OnLoginStatusChangeListener
-import com.ifam.pdm.cineticket.view.fragments.TicketsFragment
+import com.IFAM.PDM.cineticket.R
+import com.IFAM.PDM.cineticket.view.fragments.CinemasFragment
+import com.IFAM.PDM.cineticket.view.fragments.ConfigsFragment
+import com.IFAM.PDM.cineticket.view.fragments.HomeFragment
+import com.IFAM.PDM.cineticket.view.fragments.LoginFragment
+import com.IFAM.PDM.cineticket.view.fragments.OnLoginStatusChangeListener
+import com.IFAM.PDM.cineticket.view.fragments.TicketsFragment
 
 class MainActivity : AppCompatActivity(), OnLoginStatusChangeListener {
 

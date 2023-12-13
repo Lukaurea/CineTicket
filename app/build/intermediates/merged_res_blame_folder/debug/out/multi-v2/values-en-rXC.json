@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.ifam.pdm.cineticket.app-mergeDebugResources-75:/values-en-rXC/values-en-rXC.xml",
+            "outputFile": "com.IFAM.PDM.cineticket.app-mergeDebugResources-75:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Davi Souza\\.gradle\\caches\\transforms-3\\5b881b2dffb55e3b6a6a2f6b53a5a69f\\transformed\\material3-1.0.0\\res\\values-en-rXC\\values-en-rXC.xml",

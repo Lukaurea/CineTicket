@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.ifam.pdm.cineticket.app-mergeDebugResources-75:/values-vi/values-vi.xml",
+            "outputFile": "com.IFAM.PDM.cineticket.app-mergeDebugResources-75:/values-vi/values-vi.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Davi Souza\\.gradle\\caches\\transforms-3\\68c056e88bc1b067ec8b840f17506f10\\transformed\\browser-1.4.0\\res\\values-vi\\values-vi.xml",

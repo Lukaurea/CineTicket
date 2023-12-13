@@ -7,6 +7,25 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:494317058534:android:0ce1333f0e0e935010fe27",
+        "android_client_info": {
+          "package_name": "com.IFAM.PDM.cineticket"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc76qGCbjqHSaJD1aJaJoZQ9S80GIvnTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:494317058534:android:96314e8628b72db510fe27",
         "android_client_info": {
           "package_name": "com.ifam.pdm.cineticket"

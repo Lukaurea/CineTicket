@@ -1,4 +1,4 @@
-com.ifam.pdm.cineticket
+com.IFAM.PDM.cineticket
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -3026,9 +3026,11 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable araujoimg
 drawable avd_hide_password
 drawable avd_show_password
 drawable background
+drawable background_label
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -3037,11 +3039,13 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable centerpleximg
 drawable cinema_araujo
 drawable cinema_centerplex
 drawable cinema_cinepolis
 drawable cinema_kinoplex
 drawable cinema_uci
+drawable cinepolisimg
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -3061,7 +3065,6 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
-drawable container_component
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -3107,13 +3110,10 @@ drawable ic_home
 drawable ic_informacao_pessoal
 drawable ic_ingressos
 drawable ic_keyboard_black_24dp
-drawable ic_launcher_background
-drawable ic_launcher_foreground
 drawable ic_lock
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
-drawable ic_mail
 drawable ic_microphone
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
@@ -3123,19 +3123,18 @@ drawable ic_notification
 drawable ic_person
 drawable ic_phone
 drawable ic_pointer
-drawable ic_round_access_time_24
-drawable ic_round_arrow_back_24
-drawable ic_round_calendar_today_24
-drawable ic_round_favorite_24
-drawable ic_round_info_24
-drawable ic_round_person_24
-drawable ic_round_star_24
+drawable ic_round_access_time
+drawable ic_round_arrow_back
+drawable ic_round_calendar_today
+drawable ic_round_favorite
+drawable ic_round_info
+drawable ic_round_star
 drawable ic_rounded_person
 drawable ic_search
 drawable ic_search_black_24
-drawable img_background
 drawable img_casal_sentado
 drawable img_couple_movie
+drawable kinopleximg
 drawable logo_cineticket
 drawable m3_appbar_background
 drawable m3_avd_hide_password
@@ -3213,10 +3212,12 @@ drawable notify_panel_notification_icon_bg
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable uciimg
 id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
+id CinemasLocais
 id ContainerComponents
 id FUNCTION
 id META
@@ -3491,6 +3492,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageLogo
 id image_view
 id immediateStop
 id included
@@ -3798,6 +3800,7 @@ id unlabeled
 id up
 id useLogo
 id vertical_only
+id view
 id view1
 id view2
 id view3
@@ -3965,6 +3968,7 @@ layout fragment_movie
 layout fragment_tickets
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
+layout layout
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

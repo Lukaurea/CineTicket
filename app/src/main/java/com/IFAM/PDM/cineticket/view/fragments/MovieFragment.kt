@@ -1,4 +1,4 @@
-package com.ifam.pdm.cineticket.view.fragments
+package com.IFAM.PDM.cineticket.view.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,8 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import com.ifam.pdm.cineticket.R
-import com.ifam.pdm.cineticket.model.Movie
+import com.IFAM.PDM.cineticket.R
+import com.IFAM.PDM.cineticket.model.Movie
 
 
 class MovieFragment : Fragment() {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ifam.pdm.cineticket"
+    package="com.IFAM.PDM.cineticket"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -17,10 +17,10 @@
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
 
     <permission
-        android:name="com.ifam.pdm.cineticket.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.IFAM.PDM.cineticket.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.ifam.pdm.cineticket.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.IFAM.PDM.cineticket.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:allowBackup="true"
@@ -33,9 +33,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.CineTicket" >
         <activity
-            android:name="com.ifam.pdm.cineticket.presenter.MainActivity"
+            android:name="com.IFAM.PDM.cineticket.presenter.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.CineTicket" >
             <intent-filter>
@@ -122,7 +123,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.ifam.pdm.cineticket.firebaseinitprovider"
+            android:authorities="com.IFAM.PDM.cineticket.firebaseinitprovider"
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />
@@ -150,7 +151,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.ifam.pdm.cineticket.androidx-startup"
+            android:authorities="com.IFAM.PDM.cineticket.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"
@@ -179,7 +180,7 @@
 
         <provider
             android:name="com.squareup.picasso.PicassoProvider"
-            android:authorities="com.ifam.pdm.cineticket.com.squareup.picasso"
+            android:authorities="com.IFAM.PDM.cineticket.com.squareup.picasso"
             android:exported="false" />
 
         <receiver

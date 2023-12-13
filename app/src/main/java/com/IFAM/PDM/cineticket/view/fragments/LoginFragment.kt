@@ -1,4 +1,4 @@
-package com.ifam.pdm.cineticket.view.fragments
+package com.IFAM.PDM.cineticket.view.fragments
 
 import android.content.Context
 import android.os.Bundle
@@ -10,7 +10,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
-import com.ifam.pdm.cineticket.R
+import com.IFAM.PDM.cineticket.R
 import androidx.navigation.fragment.findNavController
 import com.google.firebase.auth.FirebaseAuth
 

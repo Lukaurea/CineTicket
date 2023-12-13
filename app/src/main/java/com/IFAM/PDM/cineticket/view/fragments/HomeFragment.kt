@@ -1,4 +1,4 @@
-package com.ifam.pdm.cineticket.view.fragments
+package com.IFAM.PDM.cineticket.view.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,9 +8,9 @@ import android.view.ViewGroup
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.ifam.pdm.cineticket.view.adapter.MovieAdapter
-import com.ifam.pdm.cineticket.R
-import com.ifam.pdm.cineticket.model.Movie
+import com.IFAM.PDM.cineticket.view.adapter.MovieAdapter
+import com.IFAM.PDM.cineticket.R
+import com.IFAM.PDM.cineticket.model.Movie
 
 class HomeFragment : Fragment(), MovieAdapter.OnMovieItemClickListener {
 

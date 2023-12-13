@@ -1,4 +1,4 @@
-package com.ifam.pdm.cineticket.view.fragments
+package com.IFAM.PDM.cineticket.view.fragments
 
 import android.content.Context
 import android.os.Bundle
@@ -7,9 +7,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.Toast
 import androidx.navigation.fragment.findNavController
 import com.google.firebase.auth.FirebaseAuth
-import com.ifam.pdm.cineticket.R
+import com.IFAM.PDM.cineticket.R
 
 class ConfigsFragment : Fragment() {
 
@@ -32,6 +33,11 @@ class ConfigsFragment : Fragment() {
     private fun logout() {
         clearLoginState()
         auth.signOut()
+        Toast.makeText(
+            requireContext(),
+            "Desconectado",
+            Toast.LENGTH_SHORT
+        ).show()
         findNavController().navigate(R.id.loginFragment)
     }
 

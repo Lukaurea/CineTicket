@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.ifam.pdm.cineticket.view.fragments.LoginFragment"
+        android:name="com.IFAM.PDM.cineticket.view.fragments.LoginFragment"
         android:label="Login Fragment"
         tools:layout="@layout/fragment_login">
         <action
@@ -21,7 +21,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.ifam.pdm.cineticket.view.fragments.HomeFragment"
+        android:name="com.IFAM.PDM.cineticket.view.fragments.HomeFragment"
         android:label="Home Fragment"
         tools:layout="@layout/fragment_home">
         <action
@@ -35,19 +35,19 @@
 
     <fragment
         android:id="@+id/cinemasFragment"
-        android:name="com.ifam.pdm.cineticket.view.fragments.CinemasFragment"
+        android:name="com.IFAM.PDM.cineticket.view.fragments.CinemasFragment"
         android:label="Home Fragment"
         tools:layout="@layout/fragment_cinemas" />
 
     <fragment
         android:id="@+id/ticketsFragment"
-        android:name="com.ifam.pdm.cineticket.view.fragments.TicketsFragment"
+        android:name="com.IFAM.PDM.cineticket.view.fragments.TicketsFragment"
         android:label="Home Fragment"
         tools:layout="@layout/fragment_tickets" />
 
     <fragment
         android:id="@+id/configsFragment"
-        android:name="com.ifam.pdm.cineticket.view.fragments.ConfigsFragment"
+        android:name="com.IFAM.PDM.cineticket.view.fragments.ConfigsFragment"
         android:label="Home Fragment"
         tools:layout="@layout/fragment_configs">
         <action
@@ -57,14 +57,14 @@
 
     <fragment
         android:id="@+id/movieFragment"
-        android:name="com.ifam.pdm.cineticket.view.fragments.MovieFragment"
+        android:name="com.IFAM.PDM.cineticket.view.fragments.MovieFragment"
         android:label="Movie Detail Fragment"
         tools:layout="@layout/movie">
     </fragment>
 
     <fragment
         android:id="@+id/cadastroFragment"
-        android:name="com.ifam.pdm.cineticket.view.fragments.CadastroFragment"
+        android:name="com.IFAM.PDM.cineticket.view.fragments.CadastroFragment"
         android:label="fragment_cadastro"
         tools:layout="@layout/fragment_cadastro">
 

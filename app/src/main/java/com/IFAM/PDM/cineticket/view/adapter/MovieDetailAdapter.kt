@@ -1,12 +1,12 @@
-package com.ifam.pdm.cineticket.view.adapter
+package com.IFAM.PDM.cineticket.view.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.ifam.pdm.cineticket.R
-import com.ifam.pdm.cineticket.model.MovieDetail
+import com.IFAM.PDM.cineticket.R
+import com.IFAM.PDM.cineticket.model.MovieDetail
 
 class MovieDetailAdapter(private val movieDetail: MovieDetail) : RecyclerView.Adapter<MovieDetailAdapter.ViewHolder>() {
 

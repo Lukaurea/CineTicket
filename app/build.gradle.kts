@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.ifam.pdm.cineticket"
+    namespace = "com.IFAM.PDM.cineticket"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.ifam.pdm.cineticket"
+        applicationId = "com.IFAM.PDM.cineticket"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
