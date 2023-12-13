@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:backgroundTint="#282f">
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/cinemas"
+        android:enabled="true"
+        android:icon="@drawable/ic_pointer"
+        android:title="Cinemas" />
+    <item
+        android:id="@+id/ticket"
+        android:enabled="true"
+        android:icon="@drawable/ic_bilhete"
+        android:title="Tickets" />
+    <item
+        android:id="@+id/config"
+        android:enabled="true"
+        android:icon="@drawable/ic_person"
+        android:title="Conta" />
+</menu>

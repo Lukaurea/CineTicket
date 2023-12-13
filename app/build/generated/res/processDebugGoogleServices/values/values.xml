@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">494317058534</string>
+    <string name="google_api_key" translatable="false">AIzaSyDc76qGCbjqHSaJD1aJaJoZQ9S80GIvnTU</string>
+    <string name="google_app_id" translatable="false">1:494317058534:android:96314e8628b72db510fe27</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDc76qGCbjqHSaJD1aJaJoZQ9S80GIvnTU</string>
+    <string name="google_storage_bucket" translatable="false">cineticket-de19a.appspot.com</string>
+    <string name="project_id" translatable="false">cineticket-de19a</string>
+</resources>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".view.fragments.LoginFragment">
+
+    <View
+        android:id="@+id/ContainerComponents"
+        style="@style/ContainerComponents"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:contentDescription="@string/img"
+        android:src="@drawable/img_couple_movie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/cineticket"
+        android:layout_width="227dp"
+        android:layout_height="156dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/logo_cineticket"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/login"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/ContainerComponents"
+        app:layout_constraintStart_toStartOf="@id/ContainerComponents"
+        app:layout_constraintTop_toTopOf="@id/ContainerComponents" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="10dp"
+        android:hint="@string/edit_email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/password"
+        app:layout_constraintEnd_toEndOf="@+id/ContainerComponents"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/ContainerComponents"
+        app:layout_constraintTop_toTopOf="@id/ContainerComponents"
+        app:layout_constraintVertical_bias="0.7" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:drawableStart="@drawable/ic_lock"
+        android:drawablePadding="10dp"
+        android:hint="@string/edit_senha"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ContainerComponents"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/ContainerComponents"
+        app:layout_constraintTop_toTopOf="@id/ContainerComponents"
+        app:layout_constraintVertical_bias="0.374" />
+
+    <Button
+        android:id="@+id/btn_entrar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:background="@color/gradient_3"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/btn_entrar"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/password" />
+
+    <!--    <ProgressBar-->
+    <!--        android:id="@+id/progressBar"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:visibility="gone"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/btn_entrar"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        android:layout_marginTop="16dp"/>-->
+
+    <LinearLayout
+        android:id="@+id/loginSocialButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_entrar">
+
+        <!-- Botão para fazer login com Facebook -->
+        <ImageButton
+            android:id="@+id/btn_login_facebook"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginEnd="45dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/img_facebook"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_facebook"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <!-- Botão para fazer login com Google -->
+        <ImageButton
+            android:id="@+id/btn_login_google"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginEnd="45dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/img_google"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_google"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <!-- Botão para fazer login como visitante -->
+        <ImageButton
+            android:id="@+id/btn_login_guest"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/img_guest"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_rounded_person"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:minHeight="48dp"
+        android:text="@string/btn_ir_cadastrar"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/loginSocialButtons" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1565C0</color>
+    <color name="dark_violet">#130B2B</color>
+    <color name="gradient_0">#130B2B</color>
+    <color name="gradient_1">#2E1371</color>
+    <color name="gradient_2">#5B31C1</color>
+    <color name="gradient_3">#7B70FF</color>
+    <color name="gradient_4">#739AFF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="red">#FFFF0000</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="violet">#2E1371</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">CineTicket</string>
+    <string name="btn_cadastrar">Cadastrar</string>
+    <string name="btn_entrar">Entrar</string>
+    <string name="btn_ir_cadastrar">Não tem conta? Clique aqui para cadastrar-se</string>
+    <string name="btn_login">Já possui uma conta? <b>Faça Login</b></string>
+    <string name="cadastro">Cadastro</string>
+    <string name="cineticket">CineTicket</string>
+    <string name="edit_celular"> Celular</string>
+    <string name="edit_confirma_senha"> Confirma Senha</string>
+    <string name="edit_email"> E-mail</string>
+    <string name="edit_nome">Nome</string>
+    <string name="edit_senha"> Senha</string>
+    <string name="edit_sobrenome"> Sobrenome</string>
+    <string name="gcm_defaultSenderId" translatable="false">494317058534</string>
+    <string name="google_api_key" translatable="false">AIzaSyDc76qGCbjqHSaJD1aJaJoZQ9S80GIvnTU</string>
+    <string name="google_app_id" translatable="false">1:494317058534:android:96314e8628b72db510fe27</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDc76qGCbjqHSaJD1aJaJoZQ9S80GIvnTU</string>
+    <string name="google_storage_bucket" translatable="false">cineticket-de19a.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="img">Imagem de Fundo</string>
+    <string name="img_facebook">Login com Facebook</string>
+    <string name="img_google">Login com Google</string>
+    <string name="img_guest">Login como visitante</string>
+    <string name="login">Login</string>
+    <string name="logo">Logo CineTicket</string>
+    <string name="project_id" translatable="false">cineticket-de19a</string>
+    <string name="text_cadastrar">Cadastrar</string>
+    <string name="text_termos">Eu aceito os <b>Termos de Uso</b> e <b>Política de Privacidade</b></string>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+    </style>
+    <style name="ContainerComponents">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">435dp</item>
+        <item name="android:background">@drawable/container_component</item>
+    </style>
+    <style name="Theme.CineTicket" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="android:statusBarColor">@color/gradient_2</item>
+        
+        <item name="colorPrimary">@color/white</item>
+        
+        <item name="android:navigationBarColor">@color/gradient_2</item>
+        
+    </style>
+    <style name="WhiteSearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="android:colorControlNormal">@android:color/white</item>
+        <item name="android:imeOptions">flagNoExtractUi</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>

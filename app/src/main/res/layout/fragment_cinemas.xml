@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    tools:context=".view.fragments.CinemasFragment">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <!-- Título da tela -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Cinemas"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/ucimanauara"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/cinema_uci"/>
+
+            <TextView
+                android:id="@+id/ucimanauaraText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UCI Manauara"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:layout_marginStart="8dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/ucisumauma"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/cinema_uci"/>
+
+            <TextView
+                android:id="@+id/uciSumaumaText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UCI Sumaúma"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:layout_marginStart="8dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/cinepolisMillenium"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/cinema_cinepolis"/>
+
+            <TextView
+                android:id="@+id/cinepolisMilleniumText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cinépolis Millenium"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:layout_marginStart="8dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/cinepolisPlaza"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/cinema_cinepolis"/>
+
+            <TextView
+                android:id="@+id/cinepolisPlazaText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cinépolis Manaus Plaza"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:layout_marginStart="8dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/cinepolisPn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/cinema_cinepolis"/>
+
+            <TextView
+                android:id="@+id/cinepolisPnText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cinépolis Ponta Negra"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:layout_marginStart="8dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/kinoplex"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/cinema_kinoplex"/>
+
+            <TextView
+                android:id="@+id/kinoplexText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kinoplex Amazonas"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:layout_marginStart="8dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/cinemaAraujo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/cinema_araujo"/>
+
+            <TextView
+                android:id="@+id/cinemaAraujoText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cinema Araújo Sumaúma"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:layout_marginStart="8dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/centerplex"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/cinema_centerplex"/>
+
+            <TextView
+                android:id="@+id/centerplexText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Centerplex Grande Circular"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:layout_marginStart="8dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

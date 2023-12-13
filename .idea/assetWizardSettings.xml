@@ -8,6 +8,46 @@
             <PersistentState />
           </value>
         </entry>
+<<<<<<< HEAD
+        <entry key="vectorWizard">
+          <value>
+            <PersistentState>
+              <option name="children">
+                <map>
+                  <entry key="vectorAssetStep">
+                    <value>
+                      <PersistentState>
+                        <option name="children">
+                          <map>
+                            <entry key="clipartAsset">
+                              <value>
+                                <PersistentState>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="url" value="file:/$PROJECT_DIR$/../../../Davi%20Souza/AppData/Local/Android/Sdk/icons/material/materialicons/phone/baseline_phone_24.xml" />
+                                    </map>
+                                  </option>
+                                </PersistentState>
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
+                        <option name="values">
+                          <map>
+                            <entry key="outputName" value="baseline_phone_24" />
+                            <entry key="sourceFile" value="C:\Users\Davi-Souza\AndroidStudioProjects\CineTicket" />
+                          </map>
+                        </option>
+                      </PersistentState>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </PersistentState>
+          </value>
+        </entry>
+=======
+>>>>>>> 6982c3c8641821b56d5470ec35cb11784d1c09ac
       </map>
     </option>
   </component>
